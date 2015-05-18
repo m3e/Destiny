@@ -31,8 +31,8 @@
 			itemList = new Array  ;
 			myLoader = new URLLoader  ;
 			myLoader.addEventListener(Event.COMPLETE,runWeapons);
-			myLoader.load(new URLRequest("Armory.xml"));
-			//myLoader.load(new URLRequest("https://dl.dropboxusercontent.com/s/k3u3fulp5cet4z7/Armory.xml"));
+			//myLoader.load(new URLRequest("Armory.xml"));
+			myLoader.load(new URLRequest("https://dl.dropboxusercontent.com/s/k3u3fulp5cet4z7/Armory.xml"));
 		}
 		private function startGame():void
 		{			
